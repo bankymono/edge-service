@@ -6,6 +6,11 @@ server:
   shutdown: graceful
 
 spring:
+  redis:
+    connect-timeout: 2s
+    host: localhost
+    port: 6379
+    timeout: 1s
   cloud:
     gateway:
       default-filters:
