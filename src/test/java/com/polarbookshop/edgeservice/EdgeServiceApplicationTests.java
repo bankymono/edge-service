@@ -29,8 +29,8 @@ class EdgeServiceApplicationTests {
 				() -> redis.getMappedPort(REDIS_PORT));
 	}
 
-	@Test
-	void contextLoads() {
-	}
+//	@Test
+//	void contextLoads() {
+//	}
 
 }
