@@ -115,3 +115,15 @@ logging:
   level:
 #    io.github.resilience4j: DEBUG
     circuitbreaker: info
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+      probes:
+        enabled: true
